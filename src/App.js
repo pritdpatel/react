@@ -1,25 +1,12 @@
 import React from 'react';
-import './App.css';
+import Form from './include/JS/forms';   
+import SqliteData from './include/JS/SqliteData';                                                                                      
+export default class App extends React.Component {
 
-class Car {
-    constructor(name){
-        this.car_name=name;
-    }
-    present=()=>this.car_name;
+  render(){
+    return (
+    <SqliteData/>
+    );
+  }
+
 }
-
-class App extends React.Component{
-    //variable
-    Hello= ()=> <h1>Modern</h1>;
-    name=this.Hello();
-    render(){
-        return (<div>
-            {this.name}
-        </div>);
-    }
-    //constructor
-    //mathod
-    
-} 
-
-export default App;

@@ -1,0 +1,14 @@
+div{
+   display:block;
+   text-align: center;
+   width:100%;
+   bottom:0px;
+   top:0px;
+   left:0;
+   height: auto;
+
+}
+form{
+    text-align: center;
+    display: flexbox;
+}
